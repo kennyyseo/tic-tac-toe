@@ -1,0 +1,59 @@
+body {
+  background: url("https://i.imgur.com/rC86dRg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #e27d60;
+  text-shadow: 3px 5px #41b3a3;
+}
+
+.gameSquare:hover {
+  background-color: white;
+}
+
+.gameBoard {
+  grid-gap: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 500px;
+  width: 500px;
+  align-content: stretch;
+  border: 6px solid #41b3a3;
+  background-color: #e8a87c;
+  padding: 20px;
+}
+
+button {
+  cursor: grabbing;
+}
+
+.gameSquare {
+  height: 130px;
+  width: 130px;
+  margin: 0 auto;
+  border: 5px solid #c38d9e;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5em;
+  display: inline-block;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: center;
+  grid-row: auto;
+  grid-column: 100%;
+  cursor: grabbing;
+}
+
+#reset {
+  margin: 75px;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
